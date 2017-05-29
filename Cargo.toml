@@ -1,0 +1,13 @@
+[package]
+
+name = "influxdb_test"
+version = "0.0.1"
+authors = [ "reoring <reoring@c16e.com>" ]
+
+[dependencies]
+
+hyper = "0.10.9"
+pretty_env_logger = { git = "https://github.com/seanmonstar/pretty-env-logger"}
+futures = "0.1.13"
+tokio-core = "0.1"
+rand = "0.3"
